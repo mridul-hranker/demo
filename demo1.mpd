@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD
+	xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:full:2011" minBufferTime="PT1.5S" type="static" mediaPresentationDuration="PT105S">
+	<Period>
+		<AdaptationSet startWithSAP="1" subsegmentAlignment="true" scanType="progressive">
+			<Representation codecs="avc1.640028" bandwidth="3163632" width="1920" height="1080" maxPlayoutRate="1" frameRate="25">
+				<BaseURL>https://rr1---sn-qxa7snee.googlevideo.com/videoplayback?expire=1719342845&amp;ei=nMJ6Zu-SPIaQvcAP8rW--Ag&amp;ip=14.140.115.103&amp;id=o-ADQPACLWPMF5fge29G1B7Fwsj9H84_xtKvia0RPsOzsq&amp;itag=137&amp;aitags=134%2C136%2C137%2C160&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;mh=p8&amp;mm=31%2C29&amp;mn=sn-qxa7snee%2Csn-qxaeen7e&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=22&amp;initcwndbps=793750&amp;bui=AbKP-1MDaxTnN0N6XZ5Eamjxj0qRrSN3Te4KGh1HVKXYR204Hbofosjf7yVIU9LR0_Og-PYdbfHMk8dj&amp;spc=UWF9fxbFxy74Ix88uKcHVCBg03E-pwznr_H2D5gC9F5QTKFo6vDZaaT1O6GQ&amp;vprv=1&amp;svpuc=1&amp;mime=video%2Fmp4&amp;ns=4CS7_rUhmh_N47cGdHwPrRwQ&amp;rqh=1&amp;gir=yes&amp;clen=25813287&amp;dur=105.000&amp;lmt=1710870667035883&amp;mt=1719320476&amp;fvip=2&amp;keepalive=yes&amp;c=WEB&amp;sefc=1&amp;txp=8219224&amp;n=yFA7Cjr1xgH6mA&amp;sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AJfQdSswRQIgUvD42hgRNz236yNl8WZ1ud-L1sQC4OeFlGzCEgArBbQCIQC8oQqcdK0Ux9gxVlnAQpd_BFofMWoCLWbeR4W7QgBvHQ%3D%3D&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AHlkHjAwRQIgaTansWOG1YHa19Yr81iU4J43PA5o3eiRgysiC4kub-oCIQC8V8IpLCt4EckX_pKZCtUcismSHy7U7v-F6sRdqMpybA%3D%3D&amp;cpn=agDC7wQp1yO8Nd8w</BaseURL>
+				<SegmentBase indexRange="742-1025">
+					<Initialization range="0-741"/>
+				</SegmentBase>
+			</Representation>
+			<Representation codecs="avc1.64001f" bandwidth="1806181" width="1280" height="720" maxPlayoutRate="1" frameRate="25">
+				<BaseURL>https://rr1---sn-qxa7snee.googlevideo.com/videoplayback?expire=1719342845&amp;ei=nMJ6Zu-SPIaQvcAP8rW--Ag&amp;ip=14.140.115.103&amp;id=o-ADQPACLWPMF5fge29G1B7Fwsj9H84_xtKvia0RPsOzsq&amp;itag=136&amp;aitags=134%2C136%2C137%2C160&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;mh=p8&amp;mm=31%2C29&amp;mn=sn-qxa7snee%2Csn-qxaeen7e&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=22&amp;initcwndbps=793750&amp;bui=AbKP-1MDaxTnN0N6XZ5Eamjxj0qRrSN3Te4KGh1HVKXYR204Hbofosjf7yVIU9LR0_Og-PYdbfHMk8dj&amp;spc=UWF9fxbFxy74Ix88uKcHVCBg03E-pwznr_H2D5gC9F5QTKFo6vDZaaT1O6GQ&amp;vprv=1&amp;svpuc=1&amp;mime=video%2Fmp4&amp;ns=4CS7_rUhmh_N47cGdHwPrRwQ&amp;rqh=1&amp;gir=yes&amp;clen=14710659&amp;dur=105.000&amp;lmt=1710870761950902&amp;mt=1719320476&amp;fvip=2&amp;keepalive=yes&amp;c=WEB&amp;sefc=1&amp;txp=8219224&amp;n=yFA7Cjr1xgH6mA&amp;sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AJfQdSswRAIgDzE7P934ZxETf0DXoBqo_qWZ4_FT8U6V6wlOCjiv8EICIBF1rXv1z7JAXh9MSrxhsuGkXGJ6VGYX63-3Qvp0w6re&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AHlkHjAwRQIgaTansWOG1YHa19Yr81iU4J43PA5o3eiRgysiC4kub-oCIQC8V8IpLCt4EckX_pKZCtUcismSHy7U7v-F6sRdqMpybA%3D%3D&amp;cpn=agDC7wQp1yO8Nd8w</BaseURL>
+				<SegmentBase indexRange="740-1023">
+					<Initialization range="0-739"/>
+				</SegmentBase>
+			</Representation>
+			<Representation codecs="avc1.4d401e" bandwidth="475571" width="640" height="360" maxPlayoutRate="1" frameRate="25">
+				<BaseURL>https://rr1---sn-qxa7snee.googlevideo.com/videoplayback?expire=1719342845&amp;ei=nMJ6Zu-SPIaQvcAP8rW--Ag&amp;ip=14.140.115.103&amp;id=o-ADQPACLWPMF5fge29G1B7Fwsj9H84_xtKvia0RPsOzsq&amp;itag=134&amp;aitags=134%2C136%2C137%2C160&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;mh=p8&amp;mm=31%2C29&amp;mn=sn-qxa7snee%2Csn-qxaeen7e&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=22&amp;initcwndbps=793750&amp;bui=AbKP-1MDaxTnN0N6XZ5Eamjxj0qRrSN3Te4KGh1HVKXYR204Hbofosjf7yVIU9LR0_Og-PYdbfHMk8dj&amp;spc=UWF9fxbFxy74Ix88uKcHVCBg03E-pwznr_H2D5gC9F5QTKFo6vDZaaT1O6GQ&amp;vprv=1&amp;svpuc=1&amp;mime=video%2Fmp4&amp;ns=4CS7_rUhmh_N47cGdHwPrRwQ&amp;rqh=1&amp;gir=yes&amp;clen=4426019&amp;dur=105.000&amp;lmt=1710870666379495&amp;mt=1719320476&amp;fvip=2&amp;keepalive=yes&amp;c=WEB&amp;sefc=1&amp;txp=8219224&amp;n=yFA7Cjr1xgH6mA&amp;sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AJfQdSswRAIgInzyxOcSk9PeuXvYz9mT8uX0pOtLnQk05cKlNBwlaXcCIBhoInSXOa7A__4WTzqlEm_IQL44ND6SmmF29YFDZ6Lh&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AHlkHjAwRQIgaTansWOG1YHa19Yr81iU4J43PA5o3eiRgysiC4kub-oCIQC8V8IpLCt4EckX_pKZCtUcismSHy7U7v-F6sRdqMpybA%3D%3D&amp;cpn=agDC7wQp1yO8Nd8w</BaseURL>
+				<SegmentBase indexRange="741-1024">
+					<Initialization range="0-740"/>
+				</SegmentBase>
+			</Representation>
+			<Representation codecs="avc1.4d400c" bandwidth="147739" width="256" height="144" maxPlayoutRate="1" frameRate="25">
+				<BaseURL>https://rr1---sn-qxa7snee.googlevideo.com/videoplayback?expire=1719342845&amp;ei=nMJ6Zu-SPIaQvcAP8rW--Ag&amp;ip=14.140.115.103&amp;id=o-ADQPACLWPMF5fge29G1B7Fwsj9H84_xtKvia0RPsOzsq&amp;itag=160&amp;aitags=134%2C136%2C137%2C160&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;mh=p8&amp;mm=31%2C29&amp;mn=sn-qxa7snee%2Csn-qxaeen7e&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=22&amp;initcwndbps=793750&amp;bui=AbKP-1MDaxTnN0N6XZ5Eamjxj0qRrSN3Te4KGh1HVKXYR204Hbofosjf7yVIU9LR0_Og-PYdbfHMk8dj&amp;spc=UWF9fxbFxy74Ix88uKcHVCBg03E-pwznr_H2D5gC9F5QTKFo6vDZaaT1O6GQ&amp;vprv=1&amp;svpuc=1&amp;mime=video%2Fmp4&amp;ns=4CS7_rUhmh_N47cGdHwPrRwQ&amp;rqh=1&amp;gir=yes&amp;clen=1138946&amp;dur=105.000&amp;lmt=1710870723668813&amp;mt=1719320476&amp;fvip=2&amp;keepalive=yes&amp;c=WEB&amp;sefc=1&amp;txp=8219224&amp;n=yFA7Cjr1xgH6mA&amp;sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AJfQdSswRgIhAPWW7qs1Wr4tGV3mS9Roj7mE__w6oxtL434uVKlRlmkSAiEAnnU90qedQqOgiZ6ix5vD2YTdqOnCg8DxUhiEZM6vY1c%3D&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AHlkHjAwRQIgaTansWOG1YHa19Yr81iU4J43PA5o3eiRgysiC4kub-oCIQC8V8IpLCt4EckX_pKZCtUcismSHy7U7v-F6sRdqMpybA%3D%3D&amp;cpn=agDC7wQp1yO8Nd8w</BaseURL>
+				<SegmentBase indexRange="739-1022">
+					<Initialization range="0-738"/>
+				</SegmentBase>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet startWithSAP="1" subsegmentAlignment="true">
+			<Representation bandwidth="130516" codecs="mp4a.40.2">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+				<BaseURL>https://rr1---sn-qxa7snee.googlevideo.com/videoplayback?expire=1719342845&amp;ei=nMJ6Zu-SPIaQvcAP8rW--Ag&amp;ip=14.140.115.103&amp;id=o-ADQPACLWPMF5fge29G1B7Fwsj9H84_xtKvia0RPsOzsq&amp;itag=140&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;mh=p8&amp;mm=31%2C29&amp;mn=sn-qxa7snee%2Csn-qxaeen7e&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=22&amp;initcwndbps=793750&amp;bui=AbKP-1MDaxTnN0N6XZ5Eamjxj0qRrSN3Te4KGh1HVKXYR204Hbofosjf7yVIU9LR0_Og-PYdbfHMk8dj&amp;spc=UWF9fxbFxy74Ix88uKcHVCBg03E-pwznr_H2D5gC9F5QTKFo6vDZaaT1O6GQ&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fmp4&amp;ns=4CS7_rUhmh_N47cGdHwPrRwQ&amp;rqh=1&amp;gir=yes&amp;clen=1701334&amp;dur=105.047&amp;lmt=1710870631874540&amp;mt=1719320476&amp;fvip=2&amp;keepalive=yes&amp;c=WEB&amp;sefc=1&amp;txp=8218224&amp;n=yFA7Cjr1xgH6mA&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AJfQdSswRgIhAN4I93udnK-M6poqYNEqMi5aZCKX6w2szuEhvW2lRSnvAiEA2bdkfTWyCHfr5U5YUuQt4wbND90v3o_aUI94Y3-QJEg%3D&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AHlkHjAwRQIgaTansWOG1YHa19Yr81iU4J43PA5o3eiRgysiC4kub-oCIQC8V8IpLCt4EckX_pKZCtUcismSHy7U7v-F6sRdqMpybA%3D%3D&amp;cpn=agDC7wQp1yO8Nd8w</BaseURL>
+				<SegmentBase indexRange="632-795">
+					<Initialization range="0-631"/>
+				</SegmentBase>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet startWithSAP="1" subsegmentAlignment="true">
+			<Representation bandwidth="131466" codecs="opus">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+				<BaseURL>https://rr1---sn-qxa7snee.googlevideo.com/videoplayback?expire=1719342845&amp;ei=nMJ6Zu-SPIaQvcAP8rW--Ag&amp;ip=14.140.115.103&amp;id=o-ADQPACLWPMF5fge29G1B7Fwsj9H84_xtKvia0RPsOzsq&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;mh=p8&amp;mm=31%2C29&amp;mn=sn-qxa7snee%2Csn-qxaeen7e&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=22&amp;initcwndbps=793750&amp;bui=AbKP-1MDaxTnN0N6XZ5Eamjxj0qRrSN3Te4KGh1HVKXYR204Hbofosjf7yVIU9LR0_Og-PYdbfHMk8dj&amp;spc=UWF9fxbFxy74Ix88uKcHVCBg03E-pwznr_H2D5gC9F5QTKFo6vDZaaT1O6GQ&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;ns=4CS7_rUhmh_N47cGdHwPrRwQ&amp;rqh=1&amp;gir=yes&amp;clen=1433388&amp;dur=105.021&amp;lmt=1710870885852830&amp;mt=1719320476&amp;fvip=2&amp;keepalive=yes&amp;c=WEB&amp;sefc=1&amp;txp=8218224&amp;n=yFA7Cjr1xgH6mA&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AJfQdSswRgIhAPY9TbXl9nfVUPBksQGUGNza3z1TvGHogHxI3BO2mAX7AiEAoetZL5Qpzgd2vrzEJFuoV511F_sfWFInelrJtECkEm4%3D&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AHlkHjAwRQIgaTansWOG1YHa19Yr81iU4J43PA5o3eiRgysiC4kub-oCIQC8V8IpLCt4EckX_pKZCtUcismSHy7U7v-F6sRdqMpybA%3D%3D&amp;cpn=agDC7wQp1yO8Nd8w</BaseURL>
+				<SegmentBase indexRange="266-449">
+					<Initialization range="0-265"/>
+				</SegmentBase>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
